@@ -1,0 +1,31 @@
+********************
+* Lab 5 Reflection *
+********************
+Name: Umair Liaqat
+ID: 1876697  
+
+
+-----------------------------------------------------------
+1) Alignment: 0x10
+   Reasoning: The blocks are always 16 bytes apart, I was able
+              to get to this answer by using print statements.
+
+
+ 
+-----------------------------------------------------------
+2) Boundary Tag Size: 8
+   Reasoning: There is a differnce of 8 bytes between a new block
+	      and the header, therefore the boundary tag must be 8 bytes. The pointers
+	      returned from the malloc block can be used to check the hex addresses and determine 
+	      the boundary tag.
+
+
+
+-----------------------------------------------------------
+3) Footer?  No
+   Explain: Its hard to determine if an implementation is using a footer in allocated blocks
+	    being a client of malloc. 
+
+   
+
+-----------------------------------------------------------
